@@ -32,7 +32,7 @@ public class Main {
             String studentEmail = studentInput.next();
             student.setStudentEmail(studentEmail);
 
-            System.out.println("Finally, enter all of the student's courses, and separate each with a comma: ");
+            System.out.println("Finally, enter all of the student's courses, and separate each with a comma, but no space: ");
             String ListOfCourses = studentInput.next();
             student.setStudentCourseList(ListOfCourses);
 
@@ -66,7 +66,7 @@ public class Main {
             String teacherEmail = teacherInput.next();
             teacher.setTeacherEmail(teacherEmail);
 
-            System.out.println("Finally, enter all of the teacher's courses, and separate each with a comma: ");
+            System.out.println("Finally, enter all of the teacher's courses, and separate each with a comma, but no space: ");
             String ListOfCourses = teacherInput.next();
             teacher.setTeacherCourseList(ListOfCourses);
 
